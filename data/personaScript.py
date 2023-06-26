@@ -5,7 +5,7 @@ from streamlit_chat import message
 import random
 
 # PATH = "persona.csv"
-openai.api_key = "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"
+
 
 personaList = []
 
