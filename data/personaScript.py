@@ -1,10 +1,14 @@
 import openai
+import os
 import pandas as pd
 import streamlit as st
 from streamlit_chat import message
 import random
 
 # PATH = "persona.csv"
+
+openai.api_key = st.secrets["OPEN_AI_API_KEY"]
+
 
 
 personaList = []
